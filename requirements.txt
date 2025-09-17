@@ -1,0 +1,11 @@
+PyMuPDF
+pdfplumber
+camelot-py[cv]
+opencv-python
+ghostscript
+tabula-py
+pandas
+numpy
+Pillow
+regex
+argparse

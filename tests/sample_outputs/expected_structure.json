@@ -1,0 +1,55 @@
+{
+  "document_metadata": {
+    "source_file": "sample.pdf",
+    "file_size_mb": 1.2,
+    "total_pages": 3,
+    "processing_timestamp": "2025-09-18T00:25:00Z",
+    "parser_version": "1.0.0",
+    "confidence_scores": {
+      "overall_structure": 0.92,
+      "section_detection": 0.89,
+      "content_classification": 0.94
+    }
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "page_dimensions": {
+        "width": 595,
+        "height": 842
+      },
+      "content_blocks": [
+        {
+          "block_id": "p1_b1",
+          "type": "header",
+          "section": "Executive Summary",
+          "sub_section": null,
+          "text": "QUARTERLY PERFORMANCE REPORT",
+          "confidence": 0.95,
+          "position": {
+            "top": 100,
+            "left": 50,
+            "width": 500,
+            "height": 30
+          },
+          "reading_order": 1
+        },
+        {
+          "block_id": "p1_b2",
+          "type": "paragraph",
+          "section": "Executive Summary",
+          "sub_section": "Overview",
+          "text": "This report presents the quarterly performance metrics...",
+          "confidence": 0.88,
+          "position": {
+            "top": 150,
+            "left": 50,
+            "width": 500,
+            "height": 80
+          },
+          "reading_order": 2
+        }
+      ]
+    }
+  ]
+}
